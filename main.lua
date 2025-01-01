@@ -9858,7 +9858,7 @@ newModule("Scripts", "ModuleScript", "Orca.views.Pages.Scripts.Scripts", "Orca.v
 								mL,
 								{
 									header = "байпасер",
-									body = "ура можно послать кого то нахуй",
+									body = "ура можно послать \nкого то нахуй",
 									footer = "",
 								}
 							),
