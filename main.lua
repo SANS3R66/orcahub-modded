@@ -9920,7 +9920,7 @@ newModule("Scripts", "ModuleScript", "Orca.views.Pages.Scripts.Scripts", "Orca.v
 					}, { b.createElement(mL, { header = "Infinite Yield", footer = "github.com/EdgeIY" }) }),
 					b.createElement(mR, {
 						onActivate = function()
-							return n4("https://pastebin.com/raw/mMbsHWiQ", "Dex Explorer")
+							loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
 						end,
 						index = 1,
 						backgroundImage = "rbxassetid://8992290931",
@@ -9931,7 +9931,7 @@ newModule("Scripts", "ModuleScript", "Orca.views.Pages.Scripts.Scripts", "Orca.v
 						anchorPoint = Vector2.new(0.5, 1),
 						size = UDim2.new(1 / 3, -n2 * 2 / 3, (300 + n2 / 2) / n3, -n2 / 2),
 						position = r(0.5, 1),
-					}, { b.createElement(mL, { header = "Dex Explorer", footer = "github.com/LorekeeperZinnia" }) }),
+					}, { b.createElement(mL, { header = "Dex Explorer", footer = "реально рабочий Dex Explorer\nУра!!" }) }),
 					b.createElement(mR, {
 						onActivate = function()
 							loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
