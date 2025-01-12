@@ -9889,7 +9889,7 @@ newModule("Scripts", "ModuleScript", "Orca.views.Pages.Scripts.Scripts", "Orca.v
 					),
 					b.createElement(mR, {
 						onActivate = function()
-							return n4("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", "CMD-X")
+							loadstring(game:HttpGet("https://raw.githubusercontent.com/SANS3R66/santer-s-remotespy/refs/heads/main/main.notypes.luau"))()
 						end,
 						index = 5,
 						backgroundImage = "rbxassetid://8992291779",
@@ -9900,7 +9900,7 @@ newModule("Scripts", "ModuleScript", "Orca.views.Pages.Scripts.Scripts", "Orca.v
 						anchorPoint = Vector2.new(0.5, 0),
 						size = UDim2.new(1 / 3, -n2 * 2 / 3, (242 + n2 / 2) / n3, -n2 / 2),
 						position = r(0.5, 0),
-					}, { b.createElement(mL, { header = "CMD-X", footer = "github.com/CMD-X" }) }),
+					}, { b.createElement(mL, { header = "RemoteSpy", footer = "загружает\nSanter's\nRemoteSpy" }) }),
 					b.createElement(mR, {
 						onActivate = function()
 							return n4(
