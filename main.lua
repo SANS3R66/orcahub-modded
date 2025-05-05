@@ -9889,7 +9889,8 @@ newModule("Scripts", "ModuleScript", "Orca.views.Pages.Scripts.Scripts", "Orca.v
 					),
 					b.createElement(mR, {
 						onActivate = function()
-							loadstring(game:HttpGet("https://raw.githubusercontent.com/SANS3R66/santer-s-remotespy/refs/heads/main/main.notypes.luau"))()
+							--// Sigma Spy @depso
+							loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main/Main.lua"), "Sigma Spy")()
 						end,
 						index = 5,
 						backgroundImage = "rbxassetid://8992291779",
@@ -9900,7 +9901,7 @@ newModule("Scripts", "ModuleScript", "Orca.views.Pages.Scripts.Scripts", "Orca.v
 						anchorPoint = Vector2.new(0.5, 0),
 						size = UDim2.new(1 / 3, -n2 * 2 / 3, (242 + n2 / 2) / n3, -n2 / 2),
 						position = r(0.5, 0),
-					}, { b.createElement(mL, { header = "RemoteSpy", footer = "загружает\nSanter's\nRemoteSpy" }) }),
+					}, { b.createElement(mL, { header = "SigmaSpy", footer = "\nзагружает Sigma Remotespy. очень сигма!!\n(не работает на саларе)" }) }),
 					b.createElement(mR, {
 						onActivate = function()
 							return n4(
